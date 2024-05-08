@@ -37,4 +37,5 @@ RegisterNetEvent('wasabi_ambulance:useBandage', function()
         StopAnimTask(ped, 'anim@amb@business@weed@weed_inspecting_high_dry@', 'weed_inspecting_high_base_inspector', 1.0)
         TriggerEvent('wasabi_bridge:notify', Strings.action_cancelled, Strings.action_cancelled_desc, 'error')
     end)
-end)```
+end)
+```
