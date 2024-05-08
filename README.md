@@ -46,7 +46,7 @@ end)
 
 qb-apartments > client > main.lua 
 search for
-``apartments:client:setupSpawnUI``
+```apartments:client:setupSpawnUI```
 
 __Replace:__
 
@@ -67,7 +67,8 @@ RegisterNetEvent('apartments:client:setupSpawnUI', function(cData)
             end
         end
     end, cData.citizenid)
-end)```
+end)
+```
 
 __With:__
 
@@ -91,4 +92,4 @@ end)
 
 __um-multicharacter config__
 
-spawnEventUI: ``apartments:client:setupSpawnUI``
+spawnEventUI: ```apartments:client:setupSpawnUI```
